@@ -1,0 +1,10 @@
+https://blog.csdn.net/weixin_43183872/article/details/83473009
+windows中在 pycharm中安装pytorch
+打开pycharm 打开file————settings————Project Interpreter————
+点击+号在这里插入图片描述
+然后点击manage repositories
+在这里插入图片描述
+输入以下几个常用的地址
+在这里插入图片描述
+最后返回直接搜索torch点击Install package直接下载即可，可能下载的比较慢。
+在这里插入图片描述
