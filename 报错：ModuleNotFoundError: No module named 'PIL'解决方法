@@ -1,0 +1,39 @@
+https://blog.csdn.net/weixin_44037416/article/details/96842058
+
+报错：ModuleNotFoundError: No module named 'PIL'解决方法
+
+满眼清香 2019-07-22 14:36:36   20063   收藏 9
+分类专栏： # Mac # Tensorflow # python 文章标签： Mac Python
+版权
+运行时报错：
+
+Traceback (most recent call last):
+  File "***.py", line 5, in <module>
+  from PIL import Image
+  ModuleNotFoundError: No module named 'PIL'
+1
+2
+3
+4
+运行安装pillow命令:
+
+pip install pillow
+
+如果运行时显示
+
+Requirement already satisfied: pillow in /anaconda3/lib/python3.7/site-packages (5.4.1)
+1
+表示已经安装过了，这时可以先卸载，获取最新的pillow
+运行卸载命令: pip uninstall pillow
+
+然后再次运行安装命令
+pip install pillow
+
+easy_install Pillow
+
+python3 -m pip install pillow
+1
+pip install -i https://pypi.douban.com/simple pillow
+
+安装完毕，需要检查一下安装是否成功。
+打开python后，输入 from PIL import Image
