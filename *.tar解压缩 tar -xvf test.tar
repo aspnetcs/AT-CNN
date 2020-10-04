@@ -1,0 +1,2 @@
+*.tar解压缩
+tar -xvf test.tar
