@@ -1,0 +1,9 @@
+https://blog.csdn.net/qq_33594359/article/details/85067199
+ImportError: libgthread-2.0.so.0: cannot open shared object file: No such file or directory
+
+qq_33594359 2018-12-18 15:46:39   11421   收藏 2
+文章标签： alpha pose
+版权
+apt-get update
+apt-get install libglib2.0-dev
+系统：ubuntu16.04
