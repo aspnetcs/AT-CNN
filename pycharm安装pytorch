@@ -1,0 +1,14 @@
+https://zhuanlan.zhihu.com/p/144544172
+
+pycharm安装pytorch
+鼻行动物
+鼻行动物
+大西洋的暴风中心有一座小岛
+6 人赞同了该文章
+问题描述
+无法在setting里添加pytorch，即使用镜像网站也不行
+
+解决方案
+在pycharm的命令行里用pip安装，命令如下
+
+pip install torch===1.2.0 torchvision===0.4.0 -f https://download.pytorch.org/whl/torch_stable.html
