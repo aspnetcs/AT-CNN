@@ -1,0 +1,13 @@
+通常一个指令
+pip install opencv-python
+大多数的情况下，是可以的安装成功CV2，可是有时，这个指令安装的pip会出现CV2版本与python安装的版本，不匹配导致，你安装的opencv不成功，个人示例：
+1.先更新pip
+
+python -m pip install --upgrade pip  
+1
+	2.从清华的镜像 
+	`https://pypi.tuna.tsinghua.edu.cn/simple/opencv-python/ `
+	中下载其他版本的库，因为根据安装的python 版本下载相应的镜像文件
+	比如 python 3.5.4 64bit  
+	我下载的是 
+	opencv_python-3.1.0.0-cp35-cp35m-win_amd64.whl
