@@ -1,0 +1,2 @@
+http://ai.baidu.com/forum/topic/show/957544
+这个是显存不足的错误, 这个通常把batch_size改小一点就行了
